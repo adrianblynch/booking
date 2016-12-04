@@ -1,0 +1,26 @@
+.app {
+	text-align: center;
+}
+
+.app section {
+	margin: 10px;
+}
+
+@media (max-width: 749px) {
+	.tickets .ticket:last-child {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 750px) {
+	.tickets {
+		display: flex;
+		justify-content: center;
+	}
+	.tickets .ticket {
+		max-width: 400px;
+	}
+	.tickets .ticket:last-child {
+		margin-left: 10px;
+	}
+}
